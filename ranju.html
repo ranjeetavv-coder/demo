@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+           #image {
+            display: flexbox;
+            
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <h1> Flowrs</h1>
+            <h2>flower is an wondrfull ,it blooms nice in the garden</h2>
+            <h3>click on belo button to view the image</h3>
+            
+             </div>
+            <button type="button" onclick="show()" id="btnID">show image</button>
+            <img  id="image"src="IMG_20250208_141810.jpg" width="250px" height="500px"/>
+       
+            <script>
+                function show(){
+                    document.getElementById('btnID').style.display = "none";
+                    document.getElementById('image').style.display = "block";
+                }
+            </script>
+        </body>
+    </html>
